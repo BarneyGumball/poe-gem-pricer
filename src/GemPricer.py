@@ -71,7 +71,7 @@ def getGems(stash):
     return gemlist
 
 def doSearch(payloadOptions):
-    payload = {'league': 'Abyss',
+    payload = {'league': LEAGUE_NAME,
                'type': 'Gem',
                'online': 'x',
                'capquality': 'x'}
